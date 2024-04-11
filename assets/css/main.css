@@ -2661,6 +2661,8 @@ input, select, textarea {
 		.features article:first-child {
 			border-top: 0;
 			padding-top: 0;
+			display: flex;
+			flex-direction: column;
 		}
 
 		.features article .image {
